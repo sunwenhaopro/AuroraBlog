@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "aurora-nav-font"; /* Project id 3271003 */
+  src: url('iconfont.woff2?t=1648020172586') format('woff2'),
+       url('iconfont.woff?t=1648020172586') format('woff'),
+       url('iconfont.ttf?t=1648020172586') format('truetype');
+}
+
+.aurora-nav-font {
+  font-family: "aurora-nav-font" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qqyinyueQQyinle:before {
+  content: "\ea74";
+}
+

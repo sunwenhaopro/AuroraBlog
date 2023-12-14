@@ -1,0 +1,267 @@
+
+body {
+    font-family: sst;
+    color:#FF1493;
+    cursor:url("./光标刻晴/032722280062_0Arrow.ico"),auto;
+}
+a
+{
+	cursor:url("./光标刻晴/032722520746_00b9de89da90546a8b58b05434d8304b0yjSqzm5FBVhxCuWf-0.ico"),auto;
+	
+}
+p 
+{ 
+        cursor:url("./光标刻晴/032722430529_0Button.ico"),auto;
+}
+
+.home-page-tag-item {
+    width: 100%;
+height:auto;
+object-fit: cover;
+image-rendering: -moz-crisp-edges;
+image-rendering: -o-crisp-edges;
+image-rendering: -webkit-optimize-contrast;
+image-rendering: crisp-edges;
+-ms-interpolation-mode: nearest-neighbor;
+}
+.top-mask::before
+{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+.page-bottom-next:before {
+    top: 0;
+    left: 0;
+    right: 0;
+    filter: blur(1.7px);
+    z-index: -2;
+    content: "";
+    background-image: var(--homePageImgApi);
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-size: cover;
+}
+.home-page-tag-img {
+    position: relative;
+     width: auto ;
+     margin:0; 
+    border-top-left-radius: var(--borderRadius);
+    border-top-right-radius: var(--borderRadius);
+    overflow: hidden;
+}
+
+.home-page-tag-img:hover{
+
+    transform: scale(1.05);
+
+    -ms-transform: scale(1.05);
+
+}
+
+.home-page-tag-img{
+
+    transition: all 0.8s;
+
+    -ms-transition: all 0.8s;
+
+}
+.home-page-tag-item, .top-mask::before {
+    width: 65%;
+   
+}
+.home-page-tag-content {
+    max-height: 2.0rem;
+}
+.aurora-slide-box-style-box{
+    z-index:0;
+}
+.swh{
+    display:block;
+}
+@media (max-width: 768px){.swh{display: none;}}
+.sidebar-social{
+    background-color: transparent;
+}
+#mobile-sidebar-custom {
+    background-color:rgb(0, 0, 0)
+
+}
+#he-plugin-simple[data-v-41ba7e2c]{
+    padding:0px 0px 20px 10px;
+}
+.sidebar-single-common {
+    background-color: transparent;
+}
+.home-random-say div {
+    font-family: 华文楷体;
+    color:#32CD32;
+}
+#theme-default-content{
+    color:#000000;
+    font-family: 华文楷体;
+
+
+}
+#home-sidebar{
+    color:#FF6EC7;
+    font-family: 华文楷体;
+}
+.swiper-wrapper{
+    color:#FF6EC7;
+    font-family: 华文楷体;
+}
+.home-page-tag-content-rendered{
+    color:gold;
+    font-family: 华文楷体;
+    background-color: transparent;
+}
+.home-page-tag-item{
+    background-color: transparent;
+}
+.navbar-links-item{
+    color:gold;
+ 
+  font-family: var( --font-family);
+}
+.aurora-slide-item-desc-text li {
+   
+    color:gold;
+  font-family: var( --font-family);
+}
+.noShowSidebar{
+    opacity: 1;
+}
+#article-page-parent{
+    opacity: 1;
+}
+.home-page-tag{
+    opacity: 0.9;
+}
+
+.home-page-gradual-title-item-left {
+    transform: translateX(0%);
+    
+
+}
+
+.home-page-gradual-title-item-right {
+     transform: translateX(0%);
+     
+}
+
+.home-page-tag-item:hover .home-page-gradual-title-item-left, .home-page-tag-item:hover .home-page-gradual-title-item-right{
+    transform: translateX(0%)
+}
+.home-page-gradual-common span {
+    color: gold;
+}
+#waifu #live2d {
+	cursor: grab;
+	height: 300px;
+	position: relative;
+	width: 300px;
+}
+.footer{
+    background-color: transparent;
+}
+.theme-default-content{
+    background-color: transparent;
+}
+.page-bottom-next:before{
+    filter: blur(0);
+}
+#waline{
+    --waline-text-color:#00BFFF;
+    --waline-font-size: 20px;
+    --waline-bgcolor:transparent;
+}
+.theme-comment-box {
+    background-color: transparent;
+}
+.aurora-comment-animate{
+   background-color: transparent;
+}
+#waline-nick{
+    color:gold;
+}
+.link-common{
+   background-color: transparent;
+}
+.v-header{
+color:gold;
+}
+.waline{
+    background-color: transparent;
+}
+.noShowSidebar main{
+   background-color: transparent;
+}
+#sun{
+    background-color: transparent;
+    background: url("./3.jpg");
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+@media(max-width: 768px) {
+    #sun {
+        background-image:url(./4.jpg);
+        background-size: cover;
+        width:100%;
+        height:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        background-position: center 0;
+        background-attachment: fixed;
+
+ /*用于手机端图片背景，如果图片相同需要特殊优化*/
+
+    }
+}
+
+.timeline-content{
+    color:gold;
+}
+.timeline-year span {
+color:#ff6ec7;
+
+}
+.timeline-create-link-single ul li:hover .timeline-title span {
+    color: var(--archive-timeline-active-title,#ff1493)
+}
+.timeline-create-time {
+    color:#ff6ec7;
+}
+#mobile-sidebar-custom{
+    background-color: transparent;
+}
+.aurora-music-more-single{
+    color:#F3CD05;
+}
+.aurora-music-info-right {
+   background-color: transparent;
+}
+.aurora-music-font{
+    font-size: 20px;
+}
+
+.aurora-music-title {
+    color:#32CD32;
+}
+.home-page-tag-item, .top-mask::before {
+    width: 80%;
+    height:auto;
+
+}
+

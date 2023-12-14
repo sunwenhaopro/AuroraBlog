@@ -1,0 +1,3 @@
+# 项目排除路径
+/blog/Aurora-theme/lib/node/auroraTheme.js
+/blog_aurora/Aurora-theme/lib/node/auroraTheme.js
